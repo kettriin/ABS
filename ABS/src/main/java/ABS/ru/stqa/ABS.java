@@ -5,7 +5,7 @@ public class ABS {
         Point A = new Point(7, 3);
         Point B = new Point(1, 5);
 
-        System.out.println(A.distance(A, B));
+        System.out.println(A.distance(B));
     }
 
     /*функция
