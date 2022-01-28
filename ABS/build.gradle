@@ -1,3 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = "ABS" 
+
+
+repositories {mavenCentral()}
+dependencies {implementation 'org.testng:testng:7.5'}
